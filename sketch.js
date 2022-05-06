@@ -181,9 +181,9 @@ keyPressed();
 
   
   function keyPressed() {
-    if (keyCode === UP_ARROW) {
+    if (keyCode === DOWN_ARROW) {
       posY3 = posY3 + 1;
-    } else if (keyCode === DOWN_ARROW) {
+    } else if (keyCode === UP_ARROW) {
       posY3 = posY3 - 1;
     }
   }
@@ -196,7 +196,7 @@ Tone.Transport.bpm.value = 167;
 Tone.Transport.start();
 }
 
-//if (timer == 10){
-//{sequence2.start();
-//}
-//}
+if (timer == 10){
+{sequence2.start();
+}
+}
