@@ -196,7 +196,7 @@ Tone.Transport.bpm.value = 167;
 Tone.Transport.start();
 }
 
-if (timer == 10){
+if (timer == 120){
 {sequence2.start();
 }
 }
