@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#background {
+background-color: greenyellow;
+}
+
+h1{
+  width: 10%;
+  margin-left: 48%;
+}
+
+p{
+  width: 30%;
+  margin-left: 37.5%;
+}
+
+#button{
+  margin-left: 48%;
+}
+
+#restart{
+  margin-left: 47.5%;
+}
